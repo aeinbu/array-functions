@@ -1,0 +1,9 @@
+[submodule "groupby"]
+	path = groupby
+	url = https://github.com/aeinbu/groupby.git
+[submodule "filters"]
+	path = filters
+	url = https://github.com/aeinbu/filters.git
+[submodule "aggregates"]
+	path = aggregates
+	url = https://github.com/aeinbu/aggregates.git

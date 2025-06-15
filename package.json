@@ -1,0 +1,33 @@
+{
+  "name": "array-functions",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "install:all": "npm run install:aggregates && npm run install:filters && npm run install:groupby",
+    "install:aggregates": "cd aggregates && npm install",
+    "install:filters": "cd filters && npm install",
+    "install:groupby": "cd groupby && npm install",
+    "test:all": "npm-run-all --parallel test:*",
+    "test:aggregates": "cd aggregates && npm test",
+    "test:filters": "cd filters && npm test",
+    "test:groupby": "cd groupby && npm test",
+    "build:all": "npm-run-all build:*",
+    "build:aggregates": "cd aggregates && npm run build",
+    "build:filters": "cd filters && npm run build",
+    "build:groupby": "cd groupby && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aeinbu/array-functions.git"
+  },
+  "author": "Arjan Einbu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aeinbu/array-functions/issues"
+  },
+  "homepage": "https://github.com/aeinbu/array-functions#readme",
+  "description": "",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
