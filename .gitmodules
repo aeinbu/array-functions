@@ -7,3 +7,6 @@
 [submodule "aggregates"]
 	path = aggregates
 	url = https://github.com/aeinbu/aggregates.git
+[submodule "predicates"]
+	path = predicates
+	url = https://github.com/aeinbu/predicates.git
