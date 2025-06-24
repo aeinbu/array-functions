@@ -5,7 +5,7 @@ These repos are added as submodules:
 - [aggregates](https://github.com/aeinbu/aggregates.git)
 - [filters](https://github.com/aeinbu/filters.git)
 - [groupby](https://github.com/aeinbu/groupby.git)
-- predicates - coming soon
+- [predicates](https://github.com/aeinbu/predicates.git)
 - utilities - coming soon
 
 1. Git clone including cloning all submodules

@@ -31,6 +31,7 @@
   "homepage": "https://github.com/aeinbu/array-functions#readme",
   "description": "",
   "devDependencies": {
+    "@types/jest": "^30.0.0",
     "npm-run-all": "^4.1.5"
   }
 }
