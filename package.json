@@ -8,7 +8,8 @@
     "install:filters": "cd filters && npm install",
     "install:groupby": "cd groupby && npm install",
     "install:predicates": "cd predicates && npm install",
-    "test:all": "npm-run-all --parallel test:*",
+    "test:all": "npm test",
+    "test": "jest --config jestconfig.json",
     "test:aggregates": "cd aggregates && npm test",
     "test:filters": "cd filters && npm test",
     "test:groupby": "cd groupby && npm test",
@@ -32,6 +33,8 @@
   "description": "",
   "devDependencies": {
     "@types/jest": "^30.0.0",
-    "npm-run-all": "^4.1.5"
+    "jest": "^30.0.3",
+    "npm-run-all": "^4.1.5",
+    "ts-jest": "^29.4.0"
   }
 }
